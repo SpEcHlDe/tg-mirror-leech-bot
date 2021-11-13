@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
-# (c) https://github.com/SlamDevs/slam-mirrorbot
+# Implement By - @anasty17 (https://github.com/r0xtar/tg-mirror-leech-bot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
+# (c) https://github.com/r0xtar/tg-mirror-leech-bot
 # All rights reserved
 
 from bot import DOWNLOAD_DIR, LOGGER, get_client
