@@ -205,7 +205,7 @@ def github(url: str) -> str:
 def hxfile(url: str) -> str:
     """ Hxfile direct link generator
     Based on https://github.com/zevtyardt/lk21
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     bypasser = lk21.Bypass()
     return bypasser.bypass_filesIm(url)
 
@@ -213,7 +213,7 @@ def hxfile(url: str) -> str:
 def anonfiles(url: str) -> str:
     """ Anonfiles direct link generator
     Based on https://github.com/zevtyardt/lk21
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     bypasser = lk21.Bypass()
     return bypasser.bypass_anonfiles(url)
 
@@ -221,7 +221,7 @@ def anonfiles(url: str) -> str:
 def letsupload(url: str) -> str:
     """ Letsupload direct link generator
     Based on https://github.com/zevtyardt/lk21
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     dl_url = ''
     try:
         link = re.findall(r'\bhttps?://.*letsupload\.io\S+', url)[0]
@@ -235,7 +235,7 @@ def letsupload(url: str) -> str:
 def fembed(link: str) -> str:
     """ Fembed direct link generator
     Based on https://github.com/zevtyardt/lk21
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     bypasser = lk21.Bypass()
     dl_url=bypasser.bypass_fembed(link)
     count = len(dl_url)
@@ -246,7 +246,7 @@ def fembed(link: str) -> str:
 def sbembed(link: str) -> str:
     """ Sbembed direct link generator
     Based on https://github.com/zevtyardt/lk21
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     bypasser = lk21.Bypass()
     dl_url=bypasser.bypass_sbembed(link)
     count = len(dl_url)
@@ -285,7 +285,7 @@ def pixeldrain(url: str) -> str:
 def antfiles(url: str) -> str:
     """ Antfiles direct link generator
     Based on https://github.com/zevtyardt/lk21
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     bypasser = lk21.Bypass()
     return bypasser.bypass_antfiles(url)
 
@@ -293,14 +293,14 @@ def antfiles(url: str) -> str:
 def streamtape(url: str) -> str:
     """ Streamtape direct link generator
     Based on https://github.com/zevtyardt/lk21
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     bypasser = lk21.Bypass()
     return bypasser.bypass_streamtape(url)
 
 
 def racaty(url: str) -> str:
     """ Racaty direct links generator
-    based on https://github.com/SlamDevs/slam-mirrorbot """
+    based on https://github.com/r0xtar/tg-mirror-leech-bot """
     dl_url = ''
     try:
         link = re.findall(r'\bhttps?://.*racaty\.net\S+', url)[0]
@@ -320,7 +320,7 @@ def racaty(url: str) -> str:
 def fichier(link: str) -> str:
     """ 1Fichier direct links generator
     Based on https://github.com/Maujar
-             https://github.com/SlamDevs/slam-mirrorbot """
+             https://github.com/r0xtar/tg-mirror-leech-bot """
     regex = r"^([http:\/\/|https:\/\/]+)?.*1fichier\.com\/\?.+"
     gan = re.match(regex, link)
     if not gan:
