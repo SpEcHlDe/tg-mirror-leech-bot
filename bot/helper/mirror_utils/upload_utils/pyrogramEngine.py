@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/commit/d888a1e7237f4633c066f7c2bbfba030b83ad616)
-# (c) https://github.com/SlamDevs/slam-mirrorbot
+# Implement By - @anasty17 (https://github.com/r0xtar/tg-mirror-leech-bot/commit/d888a1e7237f4633c066f7c2bbfba030b83ad616)
+# (c) https://github.com/r0xtar/tg-mirror-leech-bot
 # All rights reserved
 
 import os
