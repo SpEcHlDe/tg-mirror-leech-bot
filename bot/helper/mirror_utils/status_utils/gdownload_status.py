@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/pull/220)
-# (c) https://github.com/SlamDevs/slam-mirrorbot
+# Implement By - @anasty17 (https://github.com/r0xtar/tg-mirror-leech-bot/pull/220)
+# (c) https://github.com/r0xtar/tg-mirror-leech-bot
 # All rights reserved
 
 from .status import Status
