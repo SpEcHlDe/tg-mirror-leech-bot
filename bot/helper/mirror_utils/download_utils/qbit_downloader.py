@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
-# (c) https://github.com/SlamDevs/slam-mirrorbot
+# Implement By - @anasty17 (https://github.com/r0xtar/tg-mirror-leech-bot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
+# (c) https://github.com/r0xtar/tg-mirror-leech-bot
 # All rights reserved
 
 import os
@@ -110,7 +110,7 @@ class QbitTorrent:
                         count += 1
                     if count == 4:
                         break
-                URL = f"{BASE_URL}/slam/files/{self.ext_hash}"
+                URL = f"{BASE_URL}/app/files/{self.ext_hash}"
                 pindata = f"pin {gid} {pincode}"
                 donedata = f"done {gid} {self.ext_hash}"
                 buttons = button_build.ButtonMaker()
